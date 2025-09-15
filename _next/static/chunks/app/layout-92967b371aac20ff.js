@@ -199,3 +199,352 @@
                 })]
             })
         }
+        N.set("en-US", (0,
+        r.jsx)(p.default, {
+            src: {
+                src: "/_next/static/media/english.9bae9bd6.svg",
+                height: 642,
+                width: 736,
+                blurWidth: 0,
+                blurHeight: 0
+            },
+            className: "w-5 h-5 inline-block align-middle",
+            alt: "English"
+        })),
+        N.set("es-ES", (0,
+        r.jsx)(p.default, {
+            src: {
+                src: "/_next/static/media/spanish.f36bc40a.svg",
+                height: 642,
+                width: 736,
+                blurWidth: 0,
+                blurHeight: 0
+            },
+            className: "w-5 h-5 inline-block align-middle",
+            alt: "Spanish"
+        }));
+        var k = t(15964)
+          , v = t(23051)
+          , E = t(63872)
+          , L = t(26249)
+          , S = t(74744)
+          , y = t(73155)
+          , C = t(13177)
+          , P = t(65809)
+          , _ = t(16463);
+        function A() {
+            let[e,n] = (0,
+            m.useState)(!1)
+              , t = (0,
+            _.usePathname)()
+              , o = [{
+                id: "navbar-minecraft",
+                link: "/minecraft",
+                prefetch: !0,
+                displayName: "Minecraft"
+            }, {
+                id: "navbar-clients",
+                link: "/collabs",
+                prefetch: !1,
+                displayName: "Clients"
+            }, {
+                id: "navbar-stats",
+                link: "/stats",
+                prefetch: !0,
+                displayName: "Stats"
+            }, {
+                id: "navbar-contact",
+                link: "/contact",
+                prefetch: !0,
+                displayName: "Contact"
+            }];
+            return (0,
+            r.jsxs)(s.R, {
+                maxWidth: "2xl",
+                isMenuOpen: e,
+                onMenuOpenChange: n,
+                children: [(0,
+                r.jsx)(i.U, {
+                    className: "hidden sm:flex gap-4",
+                    justify: "start",
+                    children: o.map(e => {
+                        let n = e.link === t;
+                        return (0,
+                        r.jsx)(l.k, {
+                            isActive: n,
+                            children: (0,
+                            r.jsx)(P.default, {
+                                id: e.id,
+                                children: (0,
+                                r.jsx)(k.Link, {
+                                    prefetch: e.prefetch,
+                                    className: "w-full",
+                                    href: e.link,
+                                    showAnchorIcon: e.isExternal,
+                                    isExternal: e.isExternal,
+                                    color: n ? "secondary" : "foreground",
+                                    "aria-current": n,
+                                    children: e.displayName
+                                })
+                            })
+                        }, e.id)
+                    }
+                    )
+                }), (0,
+                r.jsxs)(i.U, {
+                    justify: "center",
+                    children: [(0,
+                    r.jsx)(S.L, {
+                        "aria-label": e ? "Close menu" : "Open menu",
+                        className: "sm:hidden"
+                    }), (0,
+                    r.jsx)(l.k, {
+                        children: (0,
+                        r.jsx)(k.Link, {
+                            href: "/",
+                            className: "text-foreground",
+                            children: (0,
+                            r.jsxs)(a.H, {
+                                children: [(0,
+                                r.jsx)(c, {
+                                    width: 48,
+                                    height: 48
+                                }), (0,
+                                r.jsx)("p", {
+                                    className: "font-bold text-inherit uppercase text-2xl",
+                                    children: "Eufonia Studio"
+                                })]
+                            })
+                        })
+                    })]
+                }), (0,
+                r.jsxs)(i.U, {
+                    justify: "end",
+                    className: "hidden lg:flex gap-4",
+                    children: [(0,
+                    r.jsx)(l.k, {
+                        className: "hidden xl:flex",
+                        children: (0,
+                        r.jsx)(k.Link, {
+                            href: "/client",
+                            className: "text-foreground",
+                            children: (0,
+                            r.jsx)(P.default, {
+                                id: "navbar-client",
+                                children: (0,
+                                r.jsx)(C.z, {
+                                    color: "success",
+                                    variant: "flat",
+                                    startContent: (0,
+                                    r.jsx)(E.aBF, {}),
+                                    classNames: {
+                                        base: ["px-3 pl-5"],
+                                        content: "ml-1"
+                                    },
+                                    children: "Download Eufonia Client"
+                                })
+                            })
+                        })
+                    }), (0,
+                    r.jsx)(l.k, {
+                        children: (0,
+                        r.jsx)(L.e, {
+                            content: "Instagram",
+                            children: (0,
+                            r.jsx)(k.Link, {
+                                color: "foreground",
+                                href: "https://www.instagram.com/eufoniastudio_",
+                                isExternal: !0,
+                                "aria-label": "Instagram",
+                                children: (0,
+                                r.jsx)(v.Nrw, {
+                                    className: "text-xl cursor-pointer"
+                                })
+                            })
+                        })
+                    }), (0,
+                    r.jsx)(l.k, {
+                        children: (0,
+                        r.jsx)(L.e, {
+                            content: "Discord",
+                            children: (0,
+                            r.jsx)(k.Link, {
+                                color: "foreground",
+                                href: "https://discord.gg/eufonia-club-863858965183987712",
+                                isExternal: !0,
+                                "aria-label": "Discord",
+                                children: (0,
+                                r.jsx)(E.j2d, {
+                                    className: "text-xl cursor-pointer"
+                                })
+                            })
+                        })
+                    }), (0,
+                    r.jsx)(l.k, {
+                        children: (0,
+                        r.jsx)(L.e, {
+                            content: "X (Twitter)",
+                            children: (0,
+                            r.jsx)(k.Link, {
+                                color: "foreground",
+                                href: "https://x.com/eufoniastudio",
+                                isExternal: !0,
+                                "aria-label": "Twitter",
+                                children: (0,
+                                r.jsx)(E.LCd, {
+                                    className: "text-xl cursor-pointer"
+                                })
+                            })
+                        })
+                    }), (0,
+                    r.jsx)(l.k, {
+                        children: (0,
+                        r.jsx)(L.e, {
+                            content: "Patreon",
+                            children: (0,
+                            r.jsx)(k.Link, {
+                                color: "foreground",
+                                href: "https://www.patreon.com/eufonia",
+                                isExternal: !0,
+                                "aria-label": "Patreon",
+                                children: (0,
+                                r.jsx)(E.oKc, {
+                                    className: "cursor-pointer"
+                                })
+                            })
+                        })
+                    }), (0,
+                    r.jsx)(l.k, {
+                        className: "hidden lg:flex mb-1",
+                        children: (0,
+                        r.jsx)(w, {})
+                    })]
+                }), (0,
+                r.jsxs)(y.$, {
+                    className: "bg-background/90",
+                    children: [(0,
+                    r.jsx)(l.k, {
+                        className: "mb-5",
+                        children: (0,
+                        r.jsx)(w, {})
+                    }), o.map(e => (0,
+                    r.jsx)(l.k, {
+                        children: (0,
+                        r.jsx)(P.default, {
+                            id: e.id,
+                            children: (0,
+                            r.jsx)(k.Link, {
+                                prefetch: e.prefetch,
+                                color: "foreground",
+                                className: "w-full",
+                                href: e.link,
+                                showAnchorIcon: e.isExternal,
+                                isExternal: e.isExternal,
+                                onPress: () => n(!1),
+                                children: e.displayName
+                            })
+                        })
+                    }, e.id)), (0,
+                    r.jsxs)(l.k, {
+                        className: "mt-5 flex gap-5",
+                        children: [(0,
+                        r.jsx)(k.Link, {
+                            color: "foreground",
+                            href: "https://www.instagram.com/eufoniastudio_",
+                            isExternal: !0,
+                            children: (0,
+                            r.jsx)(v.Nrw, {
+                                className: "text-xl cursor-pointer"
+                            })
+                        }), (0,
+                        r.jsx)(k.Link, {
+                            color: "foreground",
+                            href: "https://discord.gg/eufonia-club-863858965183987712",
+                            isExternal: !0,
+                            children: (0,
+                            r.jsx)(E.j2d, {
+                                className: "text-xl cursor-pointer"
+                            })
+                        }), (0,
+                        r.jsx)(k.Link, {
+                            color: "foreground",
+                            href: "https://x.com/eufoniastudio",
+                            isExternal: !0,
+                            children: (0,
+                            r.jsx)(E.LCd, {
+                                className: "text-xl cursor-pointer"
+                            })
+                        }), (0,
+                        r.jsx)(k.Link, {
+                            color: "foreground",
+                            href: "https://www.patreon.com/eufonia",
+                            isExternal: !0,
+                            children: (0,
+                            r.jsx)(E.oKc, {
+                                className: "cursor-pointer"
+                            })
+                        })]
+                    })]
+                })]
+            })
+        }
+    },
+    54162: function(e, n, t) {
+        "use strict";
+        function r({src: e, width: n, quality: t}) {
+            e = e.replace(/^\/+/, "");
+            let r = [`width=${n}`, `quality=${t || 75}`, "format=auto"];
+            return `https://eufonia.studio/cdn-cgi/image/${r.join(",")}/${e}`
+        }
+        t.r(n),
+        t.d(n, {
+            default: function() {
+                return r
+            }
+        })
+    },
+    53946: function(e, n, t) {
+        "use strict";
+        t.d(n, {
+            Providers: function() {
+                return c
+            }
+        });
+        var r = t(57437)
+          , s = t(79799)
+          , i = t(2265)
+          , l = t(7611)
+          , a = t(8358);
+        function c({children: e}) {
+            let[n,t] = (0,
+            i.useState)()
+              , [c,o] = (0,
+            i.useState)();
+            return (0,
+            r.jsx)(a.cY, {
+                defaultSetOptions: {
+                    path: "/"
+                },
+                children: (0,
+                r.jsx)(l.r, {
+                    language: n,
+                    setLanguage: t,
+                    currentLanguage: c,
+                    setCurrentLanguage: o,
+                    children: (0,
+                    r.jsx)(s.w, {
+                        children: e
+                    })
+                })
+            })
+        }
+    },
+    53054: function() {}
+}, function(e) {
+    e.O(0, [3598, 9141, 7240, 1821, 522, 3332, 6802, 8173, 2915, 231, 5392, 4491, 8483, 6249, 4932, 9912, 5620, 1520, 2971, 3526, 1744], function() {
+        return e(e.s = 22645)
+    }),
+    _N_E = e.O()
+}
+]);
+
