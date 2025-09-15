@@ -1,1 +1,87 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1327],{68269:function(e,t,n){Promise.resolve().then(n.t.bind(n,38173,23)),Promise.resolve().then(n.bind(n,7483)),Promise.resolve().then(n.bind(n,93602)),Promise.resolve().then(n.bind(n,65809)),Promise.resolve().then(n.bind(n,15964)),Promise.resolve().then(n.bind(n,54162))},65809:function(e,t,n){"use strict";n.d(t,{default:function(){return f}});var r=n(57437),l=n(2265);function i({l10n:e,id:t,attrs:n,vars:r,elems:i,children:a}){let s;if(Array.isArray(a)){if(a.length>1)throw Error("Expected to receive a single React element to localize.");s=a[0]}else s=null!=a?a:null;if(!(0,l.isValidElement)(s)){let n="string"==typeof s?s:void 0,i=e.getString(t,r,n);return(0,l.createElement)(l.Fragment,null,i)}return e.getElement(s,t,{attrs:n,vars:r,elems:i})}var a=n(84148),s=n(64491);function o(e){return void 0!==e.value}function c(e){return Array.from((0,s.Bm)(e).childNodes.map(e=>(o(e)?e.textContent=e.value:e.textContent=Array.from(e.childNodes).filter(e=>o(e)).map(e=>e).map(e=>e.value).join(" "),e)))}var d=n(50594),u=n(95397);function f({children:e,locale:t,...n}){let s=(0,l.useContext)(u.MY),o=(0,l.useMemo)(()=>s||(t?new d._((0,a.no)(t),c):new d._((0,a.Uu)(),c)),[s,t]);return(0,r.jsx)(i,{l10n:o,...n,children:e})}},93602:function(e,t,n){"use strict";n.d(t,{ContactForm:function(){return p}});var r=n(57437),l=n(76022),i=n(39343),a=n(65809),s=n(54008),o=n(63872),c=n(16356),d=n(28043),u=n(48206),f=n(63482),m=n.n(f);function x(e){return(0,r.jsx)(m(),{...e,sitekey:"0x4AAAAAAAAqpeB6Ks2mvc4W",responseField:!1})}var h=n(94962);function p(){let{register:e,handleSubmit:t,formState:{errors:n},setValue:f}=(0,i.cI)(),m=async e=>{let t=await fetch("/api/contact",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(e),credentials:"same-origin",mode:"same-origin"});await t.json()},p=t(e=>{h.ZP.promise(m(e),{loading:"Sending",success:"Message sent!",error:"Error when sending"})});return(0,r.jsxs)("form",{className:"flex flex-col gap-5",onSubmit:p,children:[(0,r.jsxs)("div",{className:"flex w-full flex-wrap md:flex-nowrap gap-4",children:[(0,r.jsx)(a.default,{id:"contact-name",attrs:{label:!0},children:(0,r.jsx)(l.Y,{type:"text",label:"Name",isRequired:!0,min:3,endContent:(0,r.jsx)(o.Oce,{className:"text-2xl text-default-400 pointer-events-none flex-shrink-0"}),...e("name",{required:!0})})}),(0,r.jsx)(a.default,{id:"contact-email",attrs:{label:!0},children:(0,r.jsx)(l.Y,{type:"email",label:"Email",isRequired:!0,endContent:(0,r.jsx)(s.hBs,{className:"text-2xl text-default-400 pointer-events-none flex-shrink-0"}),...e("email",{required:!0})})})]}),(0,r.jsx)("div",{className:"flex w-full flex-wrap md:flex-nowrap gap-4",children:(0,r.jsx)(a.default,{id:"contact-subject",attrs:{label:!0},children:(0,r.jsx)(l.Y,{type:"text",label:"Subject",isRequired:!0,min:3,endContent:(0,r.jsx)(c.sZk,{className:"text-2xl text-default-400 pointer-events-none flex-shrink-0"}),...e("subject",{required:!0})})})}),(0,r.jsx)("div",{className:"flex w-full flex-wrap md:flex-nowrap gap-4",children:(0,r.jsx)(a.default,{id:"contact-message",attrs:{label:!0,placeholder:!0,description:!0},children:(0,r.jsx)(d.Y,{label:"Message",isRequired:!0,placeholder:"Write your message to us here.",description:"Remember to write down all the information relevant to what you need.",classNames:{label:"min-h-5"},...e("message",{required:!0})})})}),(0,r.jsxs)("div",{className:"flex w-full flex-wrap md:flex-nowrap gap-4",children:[(0,r.jsx)("input",{type:"text",className:"hidden",...e("captcha")}),(0,r.jsx)(x,{theme:"dark",onVerify:e=>f("captcha",e)})]}),n.exampleRequired&&(0,r.jsx)("span",{children:"This field is required"}),(0,r.jsx)("div",{className:"flex w-full flex-wrap md:flex-nowrap gap-4",children:(0,r.jsx)(a.default,{id:"contact-send",children:(0,r.jsx)(u.A,{color:"secondary",type:"submit",children:"Send"})})})]})}},15964:function(e,t,n){"use strict";n.d(t,{Link:function(){return c}});var r=n(57437),l=n(2265),i=n(45622),a=n(67485),s=n(70097),o=n(87138);let c=(0,l.forwardRef)((e,t)=>{let{children:n,showAnchorIcon:l,anchorIcon:c=(0,r.jsx)(i.x,{className:a.A}),getLinkProps:d}=(0,s.n)({...e,ref:t});return(0,r.jsx)(o.default,{...d(),children:(0,r.jsxs)(r.Fragment,{children:[n,l&&(0,r.jsxs)(r.Fragment,{children:["\xa0 ",c]})]})})});c.displayName="CelesteLink"},54162:function(e,t,n){"use strict";function r({src:e,width:t,quality:n}){e=e.replace(/^\/+/,"");let r=[`width=${t}`,`quality=${n||75}`,"format=auto"];return`https://eufonia.studio/cdn-cgi/image/${r.join(",")}/${e}`}n.r(t),n.d(t,{default:function(){return r}})},7483:function(e,t,n){"use strict";n.r(t),t.default={src:"/_next/static/media/cover.98dedb01.png",height:3631,width:2672,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAMAAADtGH4KAAAAXVBMVEUBAwR8Z1mZiHCJeUc9QlOVSTGpmH1fSjumgXYlGhZDPkRnSx5mLzJRM0pzbnl6UEyHWlg+MRiEai+yflPWjj23jTczLjhVVESDVEGmin7kb2NjWFCxbGDmhXjEl6XufZiGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAOUlEQVR4nCXBxwGAIBAAwSXeYULBnPov04czXHqPvWc/H+kazPFqFryLagZsrPOy4WwIpYVJ1pT4fUa0Ag5IzhpwAAAAAElFTkSuQmCC",blurWidth:6,blurHeight:8}}},function(e){e.O(0,[7240,6051,8422,3332,6802,8173,231,4491,8483,4932,4586,1422,1520,2971,3526,1744],function(){return e(e.s=68269)}),_N_E=e.O()}]);
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[1327], {
+    68269: function(e, t, n) {
+        Promise.resolve().then(n.t.bind(n, 38173, 23)),
+        Promise.resolve().then(n.bind(n, 7483)),
+        Promise.resolve().then(n.bind(n, 93602)),
+        Promise.resolve().then(n.bind(n, 65809)),
+        Promise.resolve().then(n.bind(n, 15964)),
+        Promise.resolve().then(n.bind(n, 54162))
+    },
+    65809: function(e, t, n) {
+        "use strict";
+        n.d(t, {
+            default: function() {
+                return f
+            }
+        });
+        var r = n(57437)
+          , l = n(2265);
+        function i({l10n: e, id: t, attrs: n, vars: r, elems: i, children: a}) {
+            let s;
+            if (Array.isArray(a)) {
+                if (a.length > 1)
+                    throw Error("Expected to receive a single React element to localize.");
+                s = a[0]
+            } else
+                s = null != a ? a : null;
+            if (!(0,
+            l.isValidElement)(s)) {
+                let n = "string" == typeof s ? s : void 0
+                  , i = e.getString(t, r, n);
+                return (0,
+                l.createElement)(l.Fragment, null, i)
+            }
+            return e.getElement(s, t, {
+                attrs: n,
+                vars: r,
+                elems: i
+            })
+        }
+        var a = n(84148)
+          , s = n(64491);
+        function o(e) {
+            return void 0 !== e.value
+        }
+        function c(e) {
+            return Array.from((0,
+            s.Bm)(e).childNodes.map(e => (o(e) ? e.textContent = e.value : e.textContent = Array.from(e.childNodes).filter(e => o(e)).map(e => e).map(e => e.value).join(" "),
+            e)))
+        }
+        var d = n(50594)
+          , u = n(95397);
+        function f({children: e, locale: t, ...n}) {
+            let s = (0,
+            l.useContext)(u.MY)
+              , o = (0,
+            l.useMemo)( () => s || (t ? new d._((0,
+            a.no)(t),c) : new d._((0,
+            a.Uu)(),c)), [s, t]);
+            return (0,
+            r.jsx)(i, {
+                l10n: o,
+                ...n,
+                children: e
+            })
+        }
+    },
+    93602: function(e, t, n) {
+        "use strict";
+        n.d(t, {
+            ContactForm: function() {
+                return p
+            }
+        });
+        var r = n(57437)
+          , l = n(76022)
+          , i = n(39343)
+          , a = n(65809)
+          , s = n(54008)
+          , o = n(63872)
+          , c = n(16356)
+          , d = n(28043)
+          , u = n(48206)
+          , f = n(63482)
+          , m = n.n(f);
+        function x(e) {
+            return (0,
+            r.jsx)(m(), {
